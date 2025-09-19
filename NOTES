@@ -1,0 +1,6 @@
+## 📝 Notes
+
+- Recipes are fetched live from [TheMealDB](https://www.themealdb.com/api.php).  
+- The app is responsive and works on both desktop and mobile.  
+- If the API returns no results, a clear message is shown to the user.  
+- Future improvements could include multi-ingredient search, favorites, and dark mode.
