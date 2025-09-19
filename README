@@ -1,0 +1,48 @@
+🍳 Recipe Ideas App
+
+A simple React application that helps users discover recipes based on ingredients they already have at home. Built as part of a take-home assignment for the Web Developer position at Aganitha.
+
+👤 User Persona
+
+Name: Taylor
+
+Occupation: Busy Professional
+
+Need: After work, Taylor wants to quickly decide what to cook based on ingredients available in the kitchen. The app provides easy recipe suggestions without the hassle of searching multiple sites.
+
+🚀 Features
+
+🔍 Ingredient-based Search → Enter any ingredient (e.g., chicken, rice) to discover related recipes.
+
+📜 Recipe Suggestions → Displays meals with name, thumbnail, and quick access to details.
+
+🍲 Detailed Recipe View → Shows ingredients with measurements, step-by-step instructions, and a YouTube cooking tutorial link (if available).
+
+⚠️ Error Handling →
+
+Empty input → friendly message.
+
+No recipes found → clear feedback.
+
+Network errors → user-friendly error display.
+
+📱 Responsive UI → Works smoothly on desktop and mobile.
+
+🔗 Live Demo
+
+👉 https://rf6pv7.csb.app/
+
+🛠️ Tech Stack
+
+Frontend: React (TypeScript, Hooks, Functional Components)
+
+Styling: Inline CSS for simplicity
+
+API: TheMealDB
+
+Endpoints used:
+
+https://www.themealdb.com/api/json/v1/1/filter.php?i={ingredient} → Filter meals by ingredient.
+
+https://www.themealdb.com/api/json/v1/1/lookup.php?i={id} → Get full meal details by ID.
+
